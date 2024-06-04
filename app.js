@@ -17,6 +17,10 @@ app.use(cors({
 const gameRoutes = require('./routes/gameRoutes');
 app.use('/', gameRoutes);
 
+/*
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+*/
+
+module.exports = app;
