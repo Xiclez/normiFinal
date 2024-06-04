@@ -1,6 +1,6 @@
 const request = require('supertest');
 const mongoose = require('mongoose');
-const app = require('../../app'); // Asegúrate de exportar tu app en `app.js`
+const app = require('../../app'); 
 
 describe('Integration tests for services', () => {
   beforeAll(async () => {
