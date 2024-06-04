@@ -1,4 +1,4 @@
-const { startGame, comparareSequence } = require('../services/servicios');
+const { startGame, comparareSequence } = require('../services/services');
 
 const start = async (req, res) => {
   try {

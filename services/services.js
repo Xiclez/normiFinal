@@ -4,7 +4,7 @@ const {
     createGame,
     getGameInfo,
     updateSequence,
-  } = require('../utils/logicaJuego');
+  } = require('../utils/gameLogic');
   
   async function startGame() {
     const teamNumbers = Array.from({ length: 6 }, () => numChoice(1, 386));
