@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const { startGame, compareSequence } = require('../controllers/gameController');
+const { start, compare } = require('../controllers/gameController');
 
-router.post('/start', startGame);
-router.post('/compare', compareSequence);
+router.get('/start', start);
+router.post('/compare', compare);
 
 module.exports = router;
