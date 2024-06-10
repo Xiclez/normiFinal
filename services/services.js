@@ -36,7 +36,7 @@ const {
       } else {
         res.json({ 
           resultado: "TERMINADO", 
-          score: game.pokemonSequence.length 
+          score: game.pokemonSequence.length-1
         });
       }
     } catch (error) {
